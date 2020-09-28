@@ -1,0 +1,55 @@
+
+ body{
+   background-color:black ; 
+   display:flex;
+  
+
+  
+ }
+    h1, h2{
+      color:white; 
+    }
+
+
+    form{
+      background-color:white;
+      border: 1px 
+      solid #ccc;
+      padding: 30px;
+      
+    }
+   main {
+   
+    width: 400px; 
+    height: 150px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:0px;
+    position: absolute; 
+    top: 20%; }
+
+    }
+
+    button{
+      font: inherit;
+      cursor:pointer;
+    }
+.botao{
+  display:inline-block;
+  margin:1.5;
+  border: 0;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #fff;
+  background:red;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  border-radius: 00.5em;
+box-shadow: 3px,3px 0 3px #930;
+transition:box-shadow 0.3s;
+}
+.botao:active{
+box-shadow: 0 0 0 #930;
+inset: 4px 4px 4px #930;
+transform: translate(6px ,6px);
+
+}
